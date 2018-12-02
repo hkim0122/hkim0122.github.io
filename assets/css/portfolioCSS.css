@@ -114,7 +114,7 @@ h1 {
 #aboutMe {
     display: flex;
     position: relative;
-    margin: -12vh 2vw 0vh 80vw;
+    margin: 2vh 2vw 0vh 80vw;
     font-family: Monoton;
     font-size: 3vw;
 }
