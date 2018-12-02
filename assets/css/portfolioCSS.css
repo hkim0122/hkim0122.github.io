@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+#nameText {
+    display: flex;
+    position: relative;
+    margin: 20px 0px 10px 40px;
+    font-family: Monoton;
+    font-size: 5vw;
+}
+
+a {
+    color: #0E4D92;
+    text-decoration: none;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+iframe {
+    margin-left: 13%;
+    margin-bottom: 5%;
+}
+
+#hannahPic, #socialDesignPic, #tabhoardersPoster {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 50px 0;
+}
+
+#returnHome {
+    display: flex;
+    font-size: 2vw;
+    justify-content: center;
+    font-family: Cedarville Cursive;
+}
+
+.projectsText {
+    text-align: center;
+    font-size: 2.5vw;
+    font-family: 'Monoton', cursive;
+}
+
+/* Flexbox container */
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* Gives the effect of making the icons look faded when you hover over */
+.flex-item:hover {
+    opacity: 0.6;
+}
+
+/* Flexbox container item */
+.flex-item {
+    padding: 10% 10%;
+    flex: 1 1 auto;
+    opacity: 1;
+    margin: auto;
+}
+
+h1 {
+    font-family: Open Sans;
+    color: white;
+    text-align: center;
+    font-size: 10.5vw;
+    line-height: 200px;
+}
+
+#scrollText {
+    text-align: center;
+    color: #D3D3D3;
+    display: block;
+    position: fixed;
+    font-size: 4vw;
+    bottom: 5px;
+    font-family: Cedarville Cursive;
+}
+
+.MainContainer {
+    perspective: 1px;
+    transform-style: preserve-3d;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.ContentContainer {
+    position: relative;
+    display: block;
+    background-color: white;
+    z-index: 1;
+}
+
+.Content {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 10vh 5vw;
+}
+
+#homepageScrollText {
+    color: black;
+    display: flex;
+    position: relative;
+    margin: 50px 0px 10px 40px;
+    font-family: Cedarville Cursive;
+    font-size: 3.5vw;
+}
+
+#aboutMe {
+    display: flex;
+    position: relative;
+    margin: -12vh 2vw 0vh 80vw;
+    font-family: Monoton;
+    font-size: 3vw;
+}
+
+p {
+    margin: 30px 10px;
+    font-size: 2vw;
+    font-family: 'Open Sans';
+    font-weight: lighter;
+}
+
+/* Used for the parallax effect, so that body and head
+of the page appear to scroll at different rates */
+.parallax {
+    display: flex;
+    flex: 1 0 auto;
+    position: relative;
+    z-index: -1;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    transform: translateZ(-2px) scale(2);
+    background-color: rgb(51, 102, 153);
+}
